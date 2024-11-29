@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="bilder/Favicon1.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/CSScode1.css">
+    <title>About IM Haugaland</title>
+</head>
+<body>
+    <header>
+        <a href="scammed.html" style="text-decoration: none;">
+            <button type="button" style="font-family: 'future tech regular', sans-serif; font-size: 5em; text-align: center; background-color: transparent; border: none; color: white; cursor: pointer;">IM</button>
+        </a>
+    </header>
+    <nav style="background-color: #586f7c; padding: 10px; margin-bottom: 0; border-radius: 10px;">
+        <button class="box" style="width: 32%; height: 50px; display: inline-block; border-radius: 10px; box-shadow: 0 0 10px #000000; background-color: #2f4550; color: #f4f4f9; margin-right: 1%;">
+            <a href="bilder.html" style="text-decoration: none; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">Pictures</a>
+        </button>
+        <button class="box" style="width: 32%; height: 50px; display: inline-block; border-radius: 10px; box-shadow: 0 0 10px #000000; background-color: #2f4550; color: #f4f4f9; margin-right: 1%;">
+            <a href="Aboutus.html" style="text-decoration: none; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">About us</a>
+        </button>
+        <button class="box" style="width: 32%; height: 50px; display: inline-block; border-radius: 10px; box-shadow: 0 0 10px #000000; background-color: #2f4550; color: #f4f4f9;">
+            <a href="ContactIM.html" style="text-decoration: none; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">Contact IM</a>
+        </button>
+    </nav>
+<section style="display: flex; flex-direction: column; align-items: center; margin-top: 50px;">
+
+    
+    <div style="display: flex; justify-content: space-between; width: 80%; margin-top: -20px;">
+        <div class="box" style="width: 48%; height: 500px; border-radius: 10px; box-shadow: 0 0 10px #000000; background-color: #f4f4f9; color: black;">
+            <h1>Informasjonsteknologi</h1>
+            <p style="line-height: 1.6; font-family: 'Times New Roman', serif; padding: 10px;">I informasjonsteknologidelen av studiet får elevene grunnleggende og praktisk kunnskap om programmering, webutvikling og IT-systemer. De lærer sentrale programmeringsspråk som Python og JavaScript, og får øvelse i å utvikle applikasjoner, automatisering og funksjonelle nettsider. Webutvikling dekker arbeid med HTML, CSS og JavaScript, hvor de også fokuserer på brukervennlighet (UI/UX) og responsivt design for ulike skjermtyper.
+                <br />
+                Elevene jobber praktisk med både design og teknologi, og lærer å skape interaktive elementer som forbedrer brukeropplevelsen. I tillegg til programmering og design får de innsikt i datasikkerhet og digital hygiene – temaer som beskytter dem mot netttrusler og gir forståelse for sikker bruk av teknologi.
+                <br />
+                Undervisningen er ofte prosjektbasert og lagt opp til samarbeid i team. Elevene får erfaring med å løse praktiske utfordringer og gjennomføre prosjekter fra idé til ferdig produkt. Dette gir dem ferdigheter som trengs både i arbeid og videre utdanning, med vekt på problemløsning, teknologisk forståelse og samhandling.
+            </p>
+        </div>
+        <div class="box" style="width: 48%; height: 500px; border-radius: 10px; box-shadow: 0 0 10px #000000; background-color: #f4f4f9; color: black;">
+            <h1>Medieproduksjon</h1>
+            <p style="line-height: 1.6; font-family: 'Times New Roman', serif; width: 90%; margin: 0 auto;">Medieproduksjonsdelen gir elevene praktiske ferdigheter innen foto, video og digitalt design. De lærer å planlegge, produsere og redigere visuelt innhold ved bruk av verktøy som Adobe Photoshop, Premiere Pro og andre kreative programmer. Gjennom fotografering og videoinnspilling får elevene erfaring med kamerateknikker, lyssetting og lydopptak, samtidig som de utvikler forståelse for komposisjon, perspektiv og historiefortelling.
+                I tillegg jobber elevene med grafisk design, der de lager logoer, plakater og annet visuelt materiell til både trykte og digitale formål. Dette innebærer en innføring i fargeteori, typografi og layout, som er viktige elementer i profesjonell design. Medieproduksjon inkluderer også grunnleggende ferdigheter innen digital publisering og hvordan man tilpasser innhold til ulike plattformer, som nettsider og sosiale medier.
+                Gjennom praktiske prosjekter og samarbeid får elevene erfaring med hele prosessen fra idéutvikling til ferdig produkt. Dette gir dem både kreativ og teknisk kompetanse som forbereder dem for videre studier og arbeid innen mediebransjen.</p>
+        </div>
+    </div>
+    <footer style="text-align: center; padding: 10px; background-color: #586f7c; color: #f4f4f9; margin-top: 20px; width: 100%;">
+        Made by Hawre & Emilian - 2024
+    </footer>
+    <style>
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</section>
+
+<script>
+    // Retrieve the username from localStorage
+    const username = localStorage.getItem("username") || "Guest"; // Default to "Guest" if no username is found
+    document.getElementById("welcomeMessage").innerHTML = `Hei ${username}, velkommen til IM Haugaland!`;
+</script>
+
+<style>
+    ::-webkit-scrollbar {
+        width: 10px;
+        background: linear-gradient(to bottom, #586f7c, #2f4550);
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #586f7c;
+        box-shadow: inset 0 0 10px #000000;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: linear-gradient(to bottom, #f4f4f9, #dddddd);
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(to bottom, #dddddd, #bbbbbb);
+    }
+</style>
+
+</body>
+</html>
+
+
